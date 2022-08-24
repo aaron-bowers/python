@@ -35,3 +35,29 @@ def myFunc():
 
 
 myFunc()
+
+# LOCAL VARIALBES
+
+x = 'awesome'
+
+
+def myFunc():
+    x = 'fantastic'
+    print('Python local is ' + x)
+
+
+myFunc()
+
+print("Python global is " + x)
+
+# Create a GLOBAL varabile INSIDE A FUNCTION using the GLOBAL keyword
+
+
+def myFunc():
+    global x
+    x = 'fantastic'
+
+
+myFunc()
+
+print("Python is " + x)
