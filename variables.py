@@ -3,10 +3,6 @@ x = 5
 y = "Hello, World!"
 
 """
-this works as a block of comments
-"""
-
-"""
 CREATING VARIABLES
 """
 
@@ -29,3 +25,13 @@ y = 'John'
 # variable names are case sensitive
 a = 4
 A = "Sally"
+
+# GLOBAL VARIABLES - created outside a function and can be used within functions
+x = 'awesome'
+
+
+def myFunc():
+    print("Python is " + x)
+
+
+myFunc()
