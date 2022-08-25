@@ -43,3 +43,17 @@ print(thislist)
 thislist = ['apple', 'banana', 'cherry']
 mylist = thislist.copy()
 print(mylist)
+
+'''  OR   '''
+
+mylist = list(thislist)
+print(mylist)
+
+# count() - returns the number of elements with the specified value
+fruits = ['apple', 'banana', 'cherry', 'cherry']
+print(fruits.count('cherry'))
+print(fruits.count('apple'))
+
+# index() - returns the index of the first element with the specified value
+print('first index where cherry is located =', fruits.index('cherry'))
+print('first index where apple is located =', fruits.index('apple'))
