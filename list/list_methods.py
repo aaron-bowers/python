@@ -38,3 +38,8 @@ del thislist
 thislist = ['apple', 'banana', 'cherry']
 thislist.clear()
 print(thislist)
+
+# copy() method makes a copy of a list
+thislist = ['apple', 'banana', 'cherry']
+mylist = thislist.copy()
+print(mylist)
