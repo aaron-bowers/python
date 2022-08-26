@@ -1,4 +1,4 @@
-# LOOP LIST
+# LOOPS
 
 '''
   - ITERATRE over a SEQUENCE (e.g. list, tuple, dictionary, set, string)
