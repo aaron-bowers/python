@@ -14,7 +14,7 @@ print(x(5,6))
 
 # return a lambda function from within another function
 def myfunc(n):
-  return lambda a : a * n
+  return lambda a : a * n  # function returns a lambda
 
 mydoubler = myfunc(2)
 print(mydoubler(5))
